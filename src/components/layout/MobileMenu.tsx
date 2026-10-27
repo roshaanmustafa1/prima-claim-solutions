@@ -51,7 +51,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 PCS
               </div>
               <span className="font-extrabold text-base text-zinc-950">
-                Prima Claim <span className="text-orange-600">Solutions</span>
+                Prime Claim <span className="text-orange-600">Solutions</span>
               </span>
             </div>
             <button

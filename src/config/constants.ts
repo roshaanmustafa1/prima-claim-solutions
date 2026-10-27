@@ -307,7 +307,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "testimonial-1",
     quote:
-      "Switching to Prima Claim Solutions was the single best operational decision our cardiology practice made this decade. Our days in A/R plunged from 52 to 26 days within 90 days, and our first-pass clean claim rate holds steady at 99.4%.",
+      "Switching to Prime Claim Solutions was the single best operational decision our cardiology practice made this decade. Our days in A/R plunged from 52 to 26 days within 90 days, and our first-pass clean claim rate holds steady at 99.4%.",
     author: "Dr. Marcus Vance, MD, FACC",
     role: "Managing Partner",
     organization: "Midwest Cardiovascular Specialists",
@@ -318,7 +318,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "testimonial-2",
     quote:
-      "As a high-volume surgical center, prior auth bottlenecks used to delay 15% of our procedures. Prima Claim Solutions' automated prior auth team reduced turnaround to 48 hours and eradicated our procedural denial backlog completely.",
+      "As a high-volume surgical center, prior auth bottlenecks used to delay 15% of our procedures. Prime Claim Solutions' automated prior auth team reduced turnaround to 48 hours and eradicated our procedural denial backlog completely.",
     author: "Elena Rostova, MHA, FACMPE",
     role: "Executive Director",
     organization: "Pinnacle Orthopedic & Spine Institute",
@@ -329,7 +329,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "testimonial-3",
     quote:
-      "We were skeptical about external billing because of compliance fears. Prima Claim Solutions signed our BAA immediately, integrated directly into our Epic instance in under 7 days, and increased our collections by $380,000 in uncollected underpayments.",
+      "We were skeptical about external billing because of compliance fears. Prime Claim Solutions signed our BAA immediately, integrated directly into our Epic instance in under 7 days, and increased our collections by $380,000 in uncollected underpayments.",
     author: "Dr. Sarah Lin-Jennings, MD",
     role: "Medical Director",
     organization: "Beacon Hill Family Health Network",
@@ -343,10 +343,10 @@ export const FAQS = [
   {
     question: "Do we have to change our current EHR or Practice Management Software?",
     answer:
-      "Absolutely not. Prima Claim Solutions integrates directly into your existing software—whether you use Epic, AthenaHealth, Cerner, Kareo, eClinicalWorks, or any other certified platform. Our team accesses your system via secure, encrypted VPN or authorized API credentials.",
+      "Absolutely not. Prime Claim Solutions integrates directly into your existing software—whether you use Epic, AthenaHealth, Cerner, Kareo, eClinicalWorks, or any other certified platform. Our team accesses your system via secure, encrypted VPN or authorized API credentials.",
   },
   {
-    question: "How does Prima Claim Solutions ensure 100% HIPAA and HITECH compliance?",
+    question: "How does Prime Claim Solutions ensure 100% HIPAA and HITECH compliance?",
     answer:
       "We execute a formal Business Associate Agreement (BAA) prior to touching any data. All data is protected with AES-256 encryption at rest and TLS 1.3 in transit. Our facilities undergo recurring SOC 2 Type II and ISO 27001 third-party security audits.",
   },

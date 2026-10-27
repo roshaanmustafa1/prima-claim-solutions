@@ -1,0 +1,621 @@
+{
+  "generator": "LogoPack Studio",
+  "version": "1.0.0",
+  "exportTimestamp": 1793098757920,
+  "exportDate": "2026-10-27T10:59:17.920Z",
+  "brand": {
+    "name": "Prime Claim Solutions",
+    "slug": "prime-claim-solutions",
+    "notes": ""
+  },
+  "palette": [],
+  "assetCount": 3,
+  "totalGeneratedFiles": 121,
+  "files": [
+    {
+      "path": "01_Primary_Logo/01_SVG/prime-claim-solutions_primary_original.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_original_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_original_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_original_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_original_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_original_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_original_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_original_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_original_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_original_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/06_PDF/prime-claim-solutions_primary_original.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/01_SVG/prime-claim-solutions_primary_black.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_black_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_black_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_black_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_black_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_black_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_black_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_black_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_black_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_black_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/06_PDF/prime-claim-solutions_primary_black.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/01_SVG/prime-claim-solutions_primary_white.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_white_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/03_PNG_Backgrounds/prime-claim-solutions_primary_white_dark-bg_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_white_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/03_PNG_Backgrounds/prime-claim-solutions_primary_white_dark-bg_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/02_PNG_Transparent/prime-claim-solutions_primary_white_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/03_PNG_Backgrounds/prime-claim-solutions_primary_white_dark-bg_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_white_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_white_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/04_JPG/prime-claim-solutions_primary_white_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_white_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_white_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/05_WebP/prime-claim-solutions_primary_white_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "01_Primary_Logo/06_PDF/prime-claim-solutions_primary_white.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/01_SVG/prime-claim-solutions_secondary_original.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_original_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_original_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_original_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_original_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_original_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_original_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_original_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_original_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_original_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/06_PDF/prime-claim-solutions_secondary_original.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/01_SVG/prime-claim-solutions_secondary_black.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_black_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_black_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_black_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_black_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_black_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_black_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_black_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_black_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_black_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/06_PDF/prime-claim-solutions_secondary_black.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/01_SVG/prime-claim-solutions_secondary_white.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_white_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/03_PNG_Backgrounds/prime-claim-solutions_secondary_white_dark-bg_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_white_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/03_PNG_Backgrounds/prime-claim-solutions_secondary_white_dark-bg_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/02_PNG_Transparent/prime-claim-solutions_secondary_white_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/03_PNG_Backgrounds/prime-claim-solutions_secondary_white_dark-bg_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_white_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_white_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/04_JPG/prime-claim-solutions_secondary_white_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_white_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_white_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/05_WebP/prime-claim-solutions_secondary_white_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "03_Secondary_Logos/06_PDF/prime-claim-solutions_secondary_white.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/01_SVG/prime-claim-solutions_monogram_original.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_original_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_original_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_original_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_original_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_original_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_original_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_original_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_original_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_original_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/06_PDF/prime-claim-solutions_monogram_original.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/01_SVG/prime-claim-solutions_monogram_black.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_black_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_black_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_black_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_black_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_black_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_black_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_black_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_black_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_black_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/06_PDF/prime-claim-solutions_monogram_black.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/01_SVG/prime-claim-solutions_monogram_white.svg",
+      "format": "svg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_white_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/03_PNG_Backgrounds/prime-claim-solutions_monogram_white_dark-bg_512.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_white_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/03_PNG_Backgrounds/prime-claim-solutions_monogram_white_dark-bg_1024.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/02_PNG_Transparent/prime-claim-solutions_monogram_white_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/03_PNG_Backgrounds/prime-claim-solutions_monogram_white_dark-bg_2048.png",
+      "format": "png",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_white_512.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_white_1024.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/04_JPG/prime-claim-solutions_monogram_white_2048.jpg",
+      "format": "jpg",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_white_512.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_white_1024.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/05_WebP/prime-claim-solutions_monogram_white_2048.webp",
+      "format": "webp",
+      "category": "logo"
+    },
+    {
+      "path": "02_Monogram/06_PDF/prime-claim-solutions_monogram_white.pdf",
+      "format": "pdf",
+      "category": "logo"
+    },
+    {
+      "path": "04_Favicons/favicon.ico",
+      "format": "ico",
+      "category": "icon"
+    },
+    {
+      "path": "04_Favicons/favicon.svg",
+      "format": "svg",
+      "category": "icon"
+    },
+    {
+      "path": "04_Favicons/favicon-16x16.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "04_Favicons/favicon-32x32.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "04_Favicons/favicon-96x96.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "05_App_Icons/apple-touch-icon.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "05_App_Icons/android-chrome-192x192.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "05_App_Icons/android-chrome-512x512.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "06_Avatars/prime-claim-solutions_avatar_256.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "06_Avatars/prime-claim-solutions_avatar_512.png",
+      "format": "png",
+      "category": "icon"
+    },
+    {
+      "path": "07_Logo_Guide/prime-claim-solutions_Brand_Logo_Guide.pdf",
+      "format": "pdf",
+      "category": "guide"
+    },
+    {
+      "path": "README.txt",
+      "format": "txt",
+      "category": "meta"
+    },
+    {
+      "path": "manifest.json",
+      "format": "json",
+      "category": "meta"
+    }
+  ]
+}

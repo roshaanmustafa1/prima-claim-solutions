@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     const validData = validationResult.data
 
     // In a production environment, this would integrate with an EHR CRM, secure webhook, or encrypted PostgreSQL database
-    console.log("[Prima Claim Solutions] Inbound Consultation Audit Request Received:", {
+    console.log("[Prime Claim Solutions] Inbound Consultation Audit Request Received:", {
       fullName: validData.fullName,
       email: validData.email,
       phone: validData.phone,
@@ -43,7 +43,7 @@ export async function POST(request: Request) {
     const response: ApiResponse<{ requestId: string }> = {
       success: true,
       message:
-        "Your complimentary 14-point RCM audit request has been registered. A Prima Claim Solutions Practice Director will contact you within 2 business hours.",
+        "Your complimentary 14-point RCM audit request has been registered. A Prime Claim Solutions Practice Director will contact you within 2 business hours.",
       data: {
         requestId: `PCS-${Date.now().toString(36).toUpperCase()}`,
       },
@@ -51,7 +51,7 @@ export async function POST(request: Request) {
 
     return Response.json(response, { status: 200 })
   } catch (err: unknown) {
-    console.error("[Prima Claim Solutions] Error processing contact submission:", err)
+    console.error("[Prime Claim Solutions] Error processing contact submission:", err)
 
     const response: ApiResponse = {
       success: false,

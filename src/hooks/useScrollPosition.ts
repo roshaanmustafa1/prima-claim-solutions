@@ -2,24 +2,26 @@
 
 import { useState, useEffect } from "react"
 
-export function useScrollPosition(threshold = 20) {
-  const [scrollY, setScrollY] = useState(0)
+export function useScrollPosition(threshold = 20, resetThreshold = threshold) {
   const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
-    let ticking = false
+    let frameId: number | null = null
+    let scrolled = false
 
     const updateScrollPosition = () => {
       const currentScrollY = window.scrollY
-      setScrollY(currentScrollY)
-      setIsScrolled(currentScrollY > threshold)
-      ticking = false
+      const nextScrolled = currentScrollY > (scrolled ? resetThreshold : threshold)
+      if (nextScrolled !== scrolled) {
+        scrolled = nextScrolled
+        setIsScrolled(nextScrolled)
+      }
+      frameId = null
     }
 
     const onScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(updateScrollPosition)
-        ticking = true
+      if (frameId === null) {
+        frameId = window.requestAnimationFrame(updateScrollPosition)
       }
     }
 
@@ -27,8 +29,11 @@ export function useScrollPosition(threshold = 20) {
     updateScrollPosition()
 
     window.addEventListener("scroll", onScroll, { passive: true })
-    return () => window.removeEventListener("scroll", onScroll)
-  }, [threshold])
+    return () => {
+      window.removeEventListener("scroll", onScroll)
+      if (frameId !== null) window.cancelAnimationFrame(frameId)
+    }
+  }, [threshold, resetThreshold])
 
-  return { scrollY, isScrolled }
+  return { isScrolled }
 }

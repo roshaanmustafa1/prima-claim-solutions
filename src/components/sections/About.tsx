@@ -24,7 +24,7 @@ export function About() {
             </p>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Prima Claim Solutions operates as a dedicated extension of your practice—combining dual-certified AAPC/AHIMA billing directors with modern automation to capture and collect every dollar you earned.
+              Prime Claim Solutions operates as a dedicated extension of your practice—combining dual-certified AAPC/AHIMA billing directors with modern automation to capture and collect every dollar you earned.
             </p>
 
             {/* 3 Core Commitments */}

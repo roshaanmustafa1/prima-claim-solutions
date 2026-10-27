@@ -1,17 +1,17 @@
 import { SiteConfig, NavItem } from "@/types"
 
 export const siteConfig: SiteConfig = {
-  name: "Prima Claim Solutions",
-  tagline: "Enterprise Medical Billing & Revenue Cycle Management (RCM)",
+  name: "Prime Claim Solutions",
+  tagline: "Medical Billing Services for Healthcare Practices",
   description:
-    "Prima Claim Solutions empowers US healthcare providers, specialty clinics, and health systems with end-to-end medical billing, 99.2% clean claim rates, sub-28-day A/R cycles, and dedicated AAPC/AHIMA certified coders.",
-  url: "https://primaclaimsolutions.com",
-  ogImage: "https://primaclaimsolutions.com/og-image.jpg",
+    "Medical billing, coding, denial management, and insurance follow-up for healthcare practices. Prime Claim Solutions helps your team focus on patient care.",
+  url: "https://primeclaimsolutions.com",
+  ogImage: "https://primeclaimsolutions.com/og-image.jpg",
   links: {
-    portal: "https://portal.primaclaimsolutions.com",
-    audit: "#audit-form",
+    portal: "https://portal.primeclaimsolutions.com",
+    audit: "/contact",
     phone: "(888) 427-6664",
-    email: "solutions@primaclaimsolutions.com",
+    email: "solutions@primeclaimsolutions.com",
     address: "700 Technology Square, Suite 400, Cambridge, MA 02139",
   },
   certifications: [
@@ -24,9 +24,9 @@ export const siteConfig: SiteConfig = {
 }
 
 export const navItems: NavItem[] = [
-  { label: "Services", href: "#services" },
-  { label: "Why Prima Claim", href: "#why-us" },
-  { label: "Process & Workflow", href: "#process" },
-  { label: "Results & ROI", href: "#metrics" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Our services", href: "/#services" },
+  { label: "Why Prime Claim", href: "/why-prime-claim" },
+  { label: "How it works", href: "/how-it-works" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ]
