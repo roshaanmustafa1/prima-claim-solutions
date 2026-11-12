@@ -16,9 +16,9 @@ export function Navbar() {
   const closeMenu = () => setOpenPath(null)
 
   return (
-    <header className={`site-header fixed inset-x-0 top-0 z-40 ${isScrolled ? `site-header-floating ${isOpen ? "site-header-expanded" : ""}` : isOpen ? "bg-white shadow-[0_4px_24px_-16px_#193c4330]" : "bg-transparent"}`}>
+    <header className={`site-header fixed inset-x-0 top-0 z-40 border-b border-[#d9dfd5] ${isScrolled ? `site-header-floating border-b-transparent ${isOpen ? "site-header-expanded" : ""}` : isOpen ? "bg-white shadow-[0_4px_24px_-16px_#193c4330]" : "bg-transparent"}`}>
       <div className="site-container flex h-[var(--header-height)] items-center justify-between gap-4">
-        <div onClick={closeMenu}><Brand /></div>
+        <div onClick={closeMenu} className="flex min-w-0 items-center"><Brand /></div>
         <nav aria-label="Main navigation" className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) => {
             const isActive = pathname === item.href
@@ -30,7 +30,7 @@ export function Navbar() {
           })}
         </nav>
         <div className="flex shrink-0 items-center gap-3 ">
-          <Link href="/contact" onClick={closeMenu} className="site-button hidden rounded-full sm:inline-flex">Let’s talk <ArrowUpRight size={17} aria-hidden="true" /></Link>
+          <Link href="/contact" onClick={closeMenu} className="site-button hidden shrink-0 whitespace-nowrap rounded-full sm:inline-flex">Let’s talk <ArrowUpRight size={17} aria-hidden="true" /></Link>
           <button type="button" aria-expanded={isOpen} aria-controls="mobile-navigation" aria-label={isOpen ? "Close navigation" : "Open navigation"} onClick={() => setOpenPath(isOpen ? null : pathname)} onKeyDown={(event) => { if (event.key === "Escape") closeMenu() }} className="rounded-full border border-[#dce2d7] p-2.5 text-[#193c43] hover:bg-[#f0f2ec] lg:hidden">
             {isOpen ? <X size={20} /> : <Menu size={20} />}
           </button>

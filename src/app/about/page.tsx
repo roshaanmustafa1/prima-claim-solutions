@@ -3,6 +3,9 @@ import Link from "next/link"
 import { PageIntro } from "@/components/shared/PageIntro"
 import { ContactBanner } from "@/components/shared/ContactBanner"
 import { Team } from "@/components/sections/Team"
+import { FeaturedProjects } from "@/components/sections/FeaturedProjects"
+import { ArrowUpRight } from "lucide-react"
+import { rcmExpertise } from "@/config/projects"
 import { EditorialImage } from "@/components/shared/EditorialImage"
 
 export const metadata: Metadata = {
@@ -23,7 +26,28 @@ export default function AboutPage() {
       <PageIntro eyebrow="About us" title="Behind every practice is work that deserves care." description="Prime Claim Solutions provides medical billing and revenue cycle support, helping healthcare teams manage the administrative work behind patient care." />
       <section className="site-section"><div className="site-container grid gap-8 lg:grid-cols-2 lg:gap-20"><div><p className="site-eyebrow text-[#a24b2c]">Our purpose</p><h2 className="site-title mt-3 max-w-xl">Help your practice spend more time on what matters.</h2></div><div className="max-w-xl space-y-5 leading-8 text-slate-600"><p>Billing involves more than submitting a claim. It means checking coverage, keeping records organized, understanding payer responses, and following through on unpaid balances.</p><p>We bring those tasks into a clear plan of support. Whether you need help with a specific part of billing or a broader workflow, we begin with your practice’s needs.</p><Link href="/#services" className="inline-block font-semibold text-[#193c43] underline underline-offset-4">Explore our services</Link></div></div></section>
       <section className="site-section bg-[#f2f4ee]"><div className="site-container"><p className="site-eyebrow text-[#a24b2c]">How we approach our work</p><h2 className="site-title mt-3">Simple principles. Everyday practice.</h2><div className="mt-10 grid gap-8 md:grid-cols-3">{values.map((value, index) => <article key={value.title} className="border-t border-[#cfd7cd] pt-5"><span className="text-xs text-[#a24b2c]">0{index + 1}</span><h3 className="mt-4 text-xl font-semibold">{value.title}</h3><p className="mt-3 max-w-sm text-sm leading-7 text-slate-600">{value.description}</p></article>)}</div></div></section>
-      <section className="site-section border-t border-[#e1e5de]">
+      <section className="site-section">
+        <div className="site-container">
+          <div className="grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:gap-20">
+            <div>
+              <p className="site-eyebrow text-[#a24b2c]">Our experience</p>
+              <h2 className="site-title mt-3">10 years in US healthcare revenue cycle management.</h2>
+              <p className="mt-5 max-w-lg leading-8 text-slate-600">Hands-on exposure to Emergency Room billing, hospital facility revenue cycles, Federal IDR, No Surprises Act processes, and multiple medical specialties.</p>
+              <Link href="/projects" className="mt-6 inline-flex items-center gap-2 font-semibold text-[#193c43] underline underline-offset-4">See our projects & case studies <ArrowUpRight size={17} aria-hidden="true" /></Link>
+            </div>
+            <div className="grid gap-8 sm:grid-cols-2">
+              {rcmExpertise.map((group) => (
+                <div key={group.title} className="border-t border-[#cfd7cd] pt-5">
+                  <h3 className="text-lg font-semibold text-[#193c43]">{group.title}</h3>
+                  <ul className="mt-3 space-y-1.5 text-sm leading-6 text-slate-600">{group.items.map((item) => <li key={item}>{item}</li>)}</ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+      <FeaturedProjects />
+      <section className="site-section">
         <div className="site-container grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
           <EditorialImage src="/images/hospital-rcm-team.webp" alt="Healthcare and administrative professionals reviewing revenue cycle information in a meeting" caption="A coordinated approach to the work behind patient care." />
           <div><p className="site-eyebrow text-[#a24b2c]">Working together</p><h2 className="site-title mt-3">Clinical priorities.<br />Practical billing support.</h2><p className="mt-5 max-w-lg leading-8 text-slate-600">Billing works best when the people handling claims understand what your practice needs. We focus on clear responsibilities and communication, so your team knows who to turn to.</p></div>

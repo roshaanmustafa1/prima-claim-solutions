@@ -18,7 +18,7 @@ export function Team() {
             <article key={member.portfolio} data-reveal="zoom" data-reveal-delay={index * 0.16} className="interactive-card group overflow-hidden rounded-xl border border-[#e1e5de] bg-white">
               <div className="relative aspect-[4/3] overflow-hidden bg-[#e7ece3]">
                 {member.image ? (
-                  <Image src={member.image} alt={member.name} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover object-[center_25%] transition-transform duration-300 group-hover:scale-[1.03]" />
+                  <Image src={member.image} alt={member.name} fill quality={90} sizes="(min-width: 768px) 33vw, 100vw" className="object-cover object-[center_25%] transition-transform duration-300 group-hover:scale-[1.03]" />
                 ) : (
                   <div className="flex h-full flex-col items-center justify-center bg-[#193c43] text-[#e2e9d8]">
                     <span aria-hidden="true" className="flex h-28 w-28 items-center justify-center rounded-full border border-white/20 font-serif text-5xl">{member.initials}</span>

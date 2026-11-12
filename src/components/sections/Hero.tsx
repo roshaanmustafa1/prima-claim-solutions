@@ -12,9 +12,9 @@ export function Hero() {
           <div className="mt-6 flex flex-wrap items-center gap-5"><a href="/contact" className="site-button">Talk about your practice <ArrowRight size={17} aria-hidden="true" /></a><a href="#services" className="text-sm font-semibold text-[#193c43] underline underline-offset-4">Explore our services</a></div>
           <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 border-t border-[#d9dfd5] pt-4 text-sm text-slate-600">{["Medical billing", "Insurance follow-up", "Practice support"].map((item) => <span key={item} className="inline-flex items-center gap-2"><Check size={15} className="text-[#56725d]" aria-hidden="true" />{item}</span>)}</div>
         </div>
-        <div className="hero-visual relative hidden min-h-0 pb-7 lg:block lg:h-full lg:max-h-[640px] lg:pl-4">
-          <div className="relative h-full overflow-hidden rounded-t-[100px] rounded-b-xl bg-[#dce2d8]"><ScrollImage src="/images/doctor-chart-review.webp" alt="Physician holding a tablet in a clinical setting" priority sizes="(min-width: 1024px) 45vw, 100vw" className="object-[58%_center]" /></div>
-          <div className="absolute bottom-0 left-3 right-3 flex items-center gap-4 rounded-lg border border-[#e5e8df] bg-[#fcfcf9] p-5 shadow-sm sm:left-10 sm:right-10"><span className="h-9 w-1 shrink-0 rounded-full bg-[#b85e3b]" /><div><p className="text-base font-semibold text-[#193c43]">A billing partner for your practice.</p><p className="mt-1 text-sm text-slate-500">From the first claim to the final payment.</p></div></div>
+        <div className="hero-visual relative min-h-0 sm:pb-7 lg:h-full lg:max-h-[640px] lg:pl-4">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-t-[64px] rounded-b-xl bg-[#dce2d8] sm:aspect-[16/10] sm:rounded-t-[100px] lg:aspect-auto lg:h-full"><ScrollImage src="/images/doctor-chart-review.webp" alt="Physician holding a tablet in a clinical setting" priority sizes="(min-width: 1024px) 45vw, 100vw" className="object-[58%_center]" /></div>
+          <div className="mt-4 flex items-center gap-4 rounded-lg border border-[#e5e8df] bg-[#fcfcf9] p-4 shadow-sm sm:absolute sm:bottom-0 sm:left-10 sm:right-10 sm:mt-0 sm:p-5"><span className="h-9 w-1 shrink-0 rounded-full bg-[#b85e3b]" /><div><p className="text-base font-semibold text-[#193c43]">A billing partner for your practice.</p><p className="mt-1 text-sm text-slate-500">From the first claim to the final payment.</p></div></div>
         </div>
       </div>
     </section>

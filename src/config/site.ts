@@ -26,6 +26,7 @@ export const siteConfig: SiteConfig = {
 export const navItems: NavItem[] = [
   { label: "Our services", href: "/#services" },
   { label: "Why Prime Claim", href: "/why-prime-claim" },
+  { label: "Projects", href: "/projects" },
   { label: "How it works", href: "/how-it-works" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },

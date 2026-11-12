@@ -87,9 +87,11 @@ export function About() {
             <div className="relative rounded-3xl overflow-hidden border border-slate-200 shadow-2xl bg-white group">
               <div className="relative h-[420px] sm:h-[480px] w-full">
                 <Image
-                  src="/images/hospital-rcm-team.jpg"
+                  src="/images/hospital-rcm-team.webp"
                   alt="Medical directors and hospital billing specialists reviewing revenue cycle analytics"
                   fill
+                  quality={90}
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/85 via-zinc-950/20 to-transparent" />

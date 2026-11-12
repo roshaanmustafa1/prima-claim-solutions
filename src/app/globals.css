@@ -147,7 +147,7 @@ body {
   inset: 0;
   z-index: -1;
   border-radius: inherit;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(244, 247, 241, 0.75));
+  background: #ffffff;
   box-shadow: 0 8px 32px rgba(25, 60, 67, 0.1);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
@@ -201,8 +201,14 @@ body {
 
 .site-eyebrow { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.17em; text-transform: uppercase; }
 .site-title { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 3.5vw, 2.8rem); line-height: 1.15; letter-spacing: -0.025em; }
-.site-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; min-height: 3rem; padding: 0.8rem 1.25rem; border-radius: 9999px; background: #a24b2c; color: white; font-size: 0.875rem; font-weight: 600; transition: background-color 150ms; cursor: pointer; }
-.site-button:hover { background: #863d23; }
+/* Component classes must sit in @layer components. Unlayered rules always beat
+   Tailwind utilities, so an unlayered `.site-button { display: inline-flex }`
+   would override `hidden` / `sm:inline-flex` on the same element. */
+@layer components {
+  .site-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; min-height: 3rem; padding: 0.8rem 1.25rem; border-radius: 9999px; background: #a24b2c; color: white; font-size: 0.875rem; font-weight: 600; transition: background-color 200ms, box-shadow 200ms; cursor: pointer; }
+  .site-button:hover { background: #863d23; }
+  .site-button > svg { transition: transform 250ms ease-out; }
+}
 .site-label { display: block; margin-bottom: 0.5rem; font-size: 0.875rem; font-weight: 600; color: #193c43; }
 .site-input { display: block; width: 100%; min-height: 2.875rem; padding: 0.75rem; border: 1px solid #cfd7cd; border-radius: 0.375rem; background: #fcfcf9; color: #193c43; font: inherit; font-size: 0.875rem; }
 .site-input::placeholder { color: #64748b; }
@@ -282,11 +288,6 @@ section[id], main[id] { scroll-margin-top: 6.5rem; }
   translate: 0 0;
   transition: translate 250ms ease-out, border-color 250ms, box-shadow 250ms;
 }
-
-.site-button {
-  transition: background-color 200ms, box-shadow 200ms;
-}
-.site-button > svg { transition: transform 250ms ease-out; }
 
 @media (hover: hover) and (pointer: fine) {
   .interactive-card:hover {

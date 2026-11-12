@@ -24,7 +24,7 @@ export function ScrollImage({ src, alt, sizes, priority = false, className = "" 
   return (
     <div ref={target} className="absolute inset-0 overflow-hidden">
       <m.div className="absolute inset-x-0 -inset-y-[8%]" style={{ y: enabled ? y : 0, scale: enabled ? scale : 1 }}>
-        <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className={`object-cover ${className}`} />
+        <Image src={src} alt={alt} fill sizes={sizes} quality={90} priority={priority} className={`object-cover ${className}`} />
       </m.div>
     </div>
   )
